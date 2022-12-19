@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![svg-animation](src/assets/images/logo-animation-css.svg)
 
-## Getting Started
+![Next.js Badge](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+![Storybook Badge](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=fff&style=for-the-badge)
+![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
+![Figma Badge](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=for-the-badge)
+![Google Sheets Badge](https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=fff&style=for-the-badge)
+![AWS Amplify Badge](https://img.shields.io/badge/AWS%20Amplify-F90?logo=awsamplify&logoColor=fff&style=for-the-badge)
+![JetBrains Badge](https://img.shields.io/badge/JetBrains-000?logo=jetbrains&logoColor=fff&style=for-the-badge)
 
-First, run the development server:
+- [About Project](#about-project-img-srchttpsemojipedia-uss3dualstackus-west-1amazonawscomthumbs240twitter322shibuya_e50apng-altsauropod-styleheight1emwidth1emmargin0-005em-0-01emvertical-align-01em)
+- [Quick Start](#quick-start-img-srchttpstwemojimaxcdncomv131072x721f680png-altsauropod-styleheight1emwidth1emmargin0-005em-0-01emvertical-align-01em)
+    - [Environment](#environment)
+    - [Set environment variables](#set-environment-variables)
+    - [Boot development](#boot-development)
+- [CMS](#cms)
 
-```bash
-npm run dev
-# or
-yarn dev
+## About Project <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/322/shibuya_e50a.png" alt="sauropod" style="height:1em;width:1em;margin:0 0.05em 0 0.1em;vertical-align:-0.1em;"/>
+
+Steadfast News はメディア・バイアスに強いニュースソースを厳選したニュースサイトです。  
+現在は`Reuters`, `AP News`, `Forbes`をニュースソースとしています。
+
+<img src="src/assets/images/top_page.webp" alt="screenshot">
+
+## Quick Start <img src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f680.png" alt="sauropod" style="height:1em;width:1em;margin:0 0.05em 0 0.1em;vertical-align:-0.1em;"/>
+
+### Environment
+
+![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=for-the-badge)![Node.js Badge](https://img.shields.io/badge/>=16-000?&style=for-the-badge)
+
+### Set environment variables
+
+```shell
+cp sample.env .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Boot development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+  npm i
+  npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# CMS
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src="https://storage.googleapis.com/studio-design-asset-files/projects/EjOQd9moWJ/s-1036x640_v-fs_webp_7c3c51c3-c433-4380-900b-3bb1b0290194.webp" width="200" alt="micro-cms">
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](./LICENSE)
